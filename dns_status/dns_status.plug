@@ -1,0 +1,15 @@
+[Core]
+Name = DNSStatusPlugin
+Module = dns_status
+
+[Documentation]
+Description = Check DNS server responsiveness and resolution time
+Author = Your Name
+Version = 1.0.0
+Website = https://github.com/yourusername/dns-status-errbot-plugin
+
+[Python]
+Version = 3
+
+[Errbot]
+Min = 6.0.0
