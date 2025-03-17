@@ -1,10 +1,10 @@
 [Core]
-Name = DNSStatusPlugin
+Name = DNSStatus
 Module = dns_status
 
 [Documentation]
 Description = Check DNS server responsiveness and resolution time
-Author = Your Name
+Author = Eric D. Berg <eberg@bergbrains.com>
 Version = 1.0.0
 Website = https://github.com/yourusername/dns-status-errbot-plugin
 

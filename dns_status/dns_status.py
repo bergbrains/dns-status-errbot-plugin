@@ -1,10 +1,12 @@
-from errbot import BotPlugin, botcmd
-import dns.resolver
-import dns.exception
+import concurrent.futures
 import ipaddress
 import socket
 import time
-import concurrent.futures
+
+import dns.exception
+import dns.resolver
+from errbot import botcmd
+from errbot import BotPlugin
 
 
 class DnsStatus(BotPlugin):
